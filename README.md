@@ -4,25 +4,22 @@
 
 <img src="figs/100126-the-glass.jpeg" width="500">
 
-### [Project Description](doc/)
-This is the first and only *individual* (as opposed to *team*) project this semester. 
+### Summarization
 
-Term: Spring 2023
+The project aims to to produce a starter guide of philosophy reading for an outsider from a data analysis perspective.
 
-+ Projec title: Lorem ipsum dolor sit amet
-+ This project is conducted by [your name]
+1. Find reading-friendly philosophers who use less uncommon words based on a self-defined metric 𝑈𝑛𝑐𝑜𝑚𝑚𝑜𝑛𝑊𝑜𝑟𝑑𝐷𝑒𝑛𝑠𝑖𝑡𝑦.
+2. Utilized TF-IDF to generate a word cloud for Smith(a reading-friendly philosopher chosen) to quickly grasp the main topics he emphasizes on.
+3. Explore how capitalism developed in the era based on semantic analysis with NRC Emotion lexicon
 
-+ Project summary: [a short summary] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
+### Files
+*data/*: NA. Github only accepts files less than 25MB, please download the dataset from https://www.kaggle.com/datasets/kouroshalizadeh/history-of-philosophy.
 
-```
-proj/
-├── lib/
-├── data/
-├── doc/
-├── figs/
-└── output/
-```
+*doc/*: *ipynb* files, where the data story is presented with codes.
 
-Please see each subfolder for a README file.
+*figs/*: Figures
+
+*libs/*: contains some functions used in the project
+
+*output/*: *csv* files, including some middle tables and output tables.
